@@ -16,13 +16,12 @@ interface obj{
 clear();
 console.log(
   chalk.red(
-    figlet.textSync('coral-reef-CLI', { horizontalLayout: 'full' })
+    figlet.textSync('coral-reef', { horizontalLayout: 'full' })
   )
 );
 
 inquirer
   .prompt([
-    /* Pass your questions in here */
 	  {
 	  	type: "input",
 		name: "name",
@@ -34,6 +33,12 @@ inquirer
 		name: "favicon",
 		message: "Enter favicon's URL['']",
 		default: ""
+	  },
+	  {
+	  	type: "input",
+		name: "pages",
+		message: "Enter the pages names for your project, you can add more later! [index.tsx]",
+		default: "index.tsx"
 	  },
   ])
   .then((answers: obj) => {
