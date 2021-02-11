@@ -36,7 +36,7 @@ inquirer
 		default: ""
 	  },
   ])
-  .then(answers: obj => {
+  .then((answers: obj) => {
     // Use user feedback for... whatever!!
   })
   });
