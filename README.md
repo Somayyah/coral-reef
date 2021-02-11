@@ -6,5 +6,5 @@
 
 ```markdown
 > npm i -g Coral-reef
-> coral start [ -n Your Awesome Project's Name]
+> coral start -n "Your Awesome Project's Name"
 ```
