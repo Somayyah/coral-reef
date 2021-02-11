@@ -6,6 +6,13 @@ const figlet = require('figlet');
 const path = require('path');
 const inquirer = require('inquirer');
 
+interface obj{
+	type: string;
+	name: string;
+	message: string;
+	default: string
+}
+
 clear();
 console.log(
   chalk.red(
@@ -29,13 +36,7 @@ inquirer
 		default: ""
 	  },
   ])
-  .then(answers => {
+  .then(answers: obj => {
     // Use user feedback for... whatever!!
   })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
   });
