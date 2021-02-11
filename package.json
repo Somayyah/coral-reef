@@ -1,6 +1,6 @@
 {
   "name": "coral-reef",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A powerfull Next.js setup with so many no conf features",
   "main": "./lib/index.js",
   "bin": {
