@@ -39,4 +39,3 @@ inquirer
   .then((answers: obj) => {
     // Use user feedback for... whatever!!
   })
-  });
