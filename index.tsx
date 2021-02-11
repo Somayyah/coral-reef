@@ -12,3 +12,10 @@ console.log(
   )
 );
 
+const response = await prompt({
+  type: 'input',
+  name: 'project',
+  message: 'Project Name[]'
+});
+
+console.log(response); // { username: 'jonschlinkert' }
