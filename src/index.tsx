@@ -20,6 +20,7 @@ console.log(
   )
 );
 
+console.log("Welcome to coral-reef CLI")
 inquirer
   .prompt([
 	  {
