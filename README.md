@@ -1,4 +1,4 @@
-## Coral Reef is a feature rich Next.js Set up
+## Coral Reef is a feature rich Next.js Setup
 
 You can use the [editor on GitHub](https://github.com/Somayyah/coral-reef/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
