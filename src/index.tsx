@@ -16,6 +16,18 @@ console.log(
 inquirer
   .prompt([
     /* Pass your questions in here */
+	  {
+	  	type: "input",
+		name: "name",
+		message: "Enter the project's name[DIR]",
+		default: "Current WD"
+	  },
+	  {
+	  	type: "input",
+		name: "favicon",
+		message: "Enter favicon's URL[""]",
+		default: ""
+	  },
   ])
   .then(answers => {
     // Use user feedback for... whatever!!
