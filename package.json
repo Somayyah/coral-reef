@@ -27,6 +27,13 @@
   },
   "homepage": "https://github.com/Somayyah/coral-reef#readme",
   "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "next": "latest",
+    "next-seo": "^4.19.0",
+    "postcss": "^8.1.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2",
     "typescript": "^4.1.5"
   }
 }
