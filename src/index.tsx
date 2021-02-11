@@ -25,7 +25,7 @@ inquirer
 	  {
 	  	type: "input",
 		name: "favicon",
-		message: "Enter favicon's URL[""]",
+		message: "Enter favicon's URL['']",
 		default: ""
 	  },
   ])
