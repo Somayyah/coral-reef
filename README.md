@@ -2,7 +2,7 @@
 
 **Coral reef** Helps you create Next.js websites without the boring setups. It's shipped with typescript, tailwind, CSS/JS/HTML minification and a powerfull CLI to help you automate navigation, pages and components creation.
 
-### Basically
+### :paperclip:
 
 ```markdown
 > npm i -g Coral-reef
