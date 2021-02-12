@@ -3,8 +3,8 @@
 const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
-const path = require('path');
 const inquirer = require('inquirer');
+const vars = require("./funs")
 
 interface obj{
 	type: string;
@@ -43,5 +43,5 @@ inquirer
 	  },
   ])
   .then((answers: obj) => {
-    // Use user feedback for... whatever!!
+    console.log(JSON.stringify(answers))
   })
