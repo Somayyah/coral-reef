@@ -36,6 +36,12 @@ inquirer
 		default: ""
 	  },
 	  {
+		type: "confirm",
+	  	name: "language",
+	 	message: "This project will be configured with Typescipt, proceed? Y/N",
+	  	default: true
+	  },
+	  {
 	  	type: "input",
 		name: "pages",
 		message: "Enter the pages names for your project, you can add more later! [index.tsx]",
@@ -43,5 +49,5 @@ inquirer
 	  },
   ])
   .then((answers: obj) => {
-    console.log(answers)
+    
   })
