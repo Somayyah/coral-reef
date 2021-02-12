@@ -49,5 +49,5 @@ inquirer
 	  },
   ])
   .then((answers: obj) => {
-    
+	console.log(`Done!! cd into ${__dirname}?`)
   })
