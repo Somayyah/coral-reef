@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
 const inquirer = require('inquirer');
-const vars = require("./funs")
+const funs = require("./funs")
 
 interface obj{
 	type: string;
@@ -26,8 +26,8 @@ inquirer
 	  {
 	  	type: "input",
 		name: "name",
-		message: "Enter the project's name[DIR]",
-		default: "Current WD"
+		message: "Enter the project's name[app]",
+		default: "app"
 	  },
 	  {
 	  	type: "input",
@@ -43,5 +43,5 @@ inquirer
 	  },
   ])
   .then((answers: obj) => {
-    console.log(JSON.stringify(answers))
+    console.log(answers)
   })
